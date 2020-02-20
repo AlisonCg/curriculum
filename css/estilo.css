@@ -1,0 +1,477 @@
+@keyframes animacion_test{
+	from{
+		background-color: #8EE3EF;
+	}
+	to{
+		background-color: #104C65;
+	}
+}
+
+@keyframes animacion_test2{
+	from{
+		background-color: #B6D094;
+	}
+	to{
+		background-color: #74B62E;
+	}
+}
+@keyframes animacion_test3{
+	from{
+		background-color: url(https://media.giphy.com/media/2U1Z70oTIwnAc/source.gif);
+	}
+	to{
+		background-image: url(https://media.giphy.com/media/dZavZb5tlb2k8/source.gif);
+	}
+}
+
+@keyframes animateBorder {
+  to {
+    outline-color: #EA3556;
+    box-shadow: 0 0 0 6px yellow;
+  }
+}
+
+@keyframes girar{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+.ParteS{
+	width: 100%;
+	background-color: #CFDBD5;
+	color: while;
+	text-align: center;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: animacion_test 2s alternate infinite;
+	border-color: #E9EDEB;
+	border-style: double solid;
+}
+
+.ParteI{
+	width: 100%;
+	background-color: #CFDBD5;
+	color: while;
+	text-align: center;
+	height: 270px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: animacion_test2 2s alternate infinite;
+	border-color: #E9EDEB;
+	border-style: double solid;
+	flex-direction: column;
+}
+
+.Perfil{
+	margin-right: 50rem;
+	height: 250px;
+	margin-top: 12rem;
+	border-radius: 50%;
+	border: 5px solid #74B62E;
+	box-shadow: 1px 1px 15px #00467C;
+    transition: all 5s;
+    animation: label-animation;
+    animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.nombre{
+	margin-right: 50rem;
+	color: #104C65;
+	animation: Rotacion 5s infinite alternate ease-in-out -7.5s;
+	margin-top: 8rem;
+}
+
+
+@keyframes Rotacion {
+  100% { transform: rotateY(-40deg) rotateX(-43deg); }
+}
+
+@keyframes drawIn {
+  0% {
+    stroke: transparent;
+    stroke-dashoffset: 10000;
+  }
+  75% {
+    stroke: white;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	background-color: #1B1B1B;
+}
+
+.F{
+	background-image: url("https://media.giphy.com/media/76TqlUtuVETdK/source.gif");
+	background-size: cover;
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-decoration-style: "Calisto MT";
+	font-size: 25px;
+	line-height: .75;
+	margin: 10px 0;
+	margin-right: 50rem;
+	justify-content: space-between;
+}
+
+.lugar{
+	background-image: url("https://media.giphy.com/media/76TqlUtuVETdK/source.gif");
+	background-size: cover;
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-decoration-style: "Calisto MT";
+	font-size: 25px;
+	line-height: .75;
+	margin: 10px;
+	margin-right: 50rem;
+}
+
+.t{
+  color: hsla(0, 0%, 0%, .9);
+  font: normal 20px Varela Round, sans-serif;
+  height: 20px;
+  letter-spacing: 5px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 50%;
+  width: 90%;
+  animation: move linear 2000ms infinite;
+  margin-top: 13.5rem;
+  margin-left: 1rem;
+}
+.tp{
+	color: hsla(0, 0%, 0%, .9);
+  font: normal 20px Varela Round, sans-serif;
+  height: 20px;
+  letter-spacing: 5px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 50%;
+  width: 90%;
+  animation: move linear 2000ms infinite;
+  margin-top: 55.5rem;
+  margin-left: 1rem;
+}
+.tp2{
+	color: hsla(0, 0%, 0%, .9);
+  font: normal 20px Varela Round, sans-serif;
+  height: 20px;
+  letter-spacing: 5px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 2%;
+  width: 90%;
+  animation: move linear 2000ms infinite;
+  margin-top: 0rem;
+  margin-left: 1rem;
+}
+.tp3{
+		color: hsla(0, 0%, 0%, .9);
+  font: normal 20px Varela Round, sans-serif;
+  height: 20px;
+  letter-spacing: 5px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 2%;
+  width: 90%;
+  animation: move linear 2000ms infinite;
+  margin-top: 0rem;
+  margin-left: 1rem;
+}
+.AD{
+	margin-top: 5%;
+	flex-direction: column;
+    transition: all 5s;
+    transition-timing-function: ease-in-out;
+}
+
+.Acerca{
+	background-image: url("https://media.giphy.com/media/l1BgSYPVgIp8OyRZm/source.gif");
+	background-size: cover;
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-decoration-style: "Tw Cen MT Condensed";
+	font-size: 17px;
+	line-height: .75;
+	margin: 10px;
+	margin-top: 6rem;
+}
+
+.t_d{
+  color: hsla(0, 0%, 0%, .9);
+  font: normal 20px Varela Round, sans-serif;
+  height: 20px;
+  letter-spacing: 5px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 50%;
+  width: 90%;
+  animation: move linear 2000ms infinite;
+  margin-top: 20rem;
+  margin-left: 1rem;
+}
+
+.t3{
+	font-family: "Tw Cen MT Condensed";
+	font-size: 30px;
+	color: #FFFFFF;
+}
+.act{
+	margin-top: 1rem;
+	margin-left: 4rem;
+	height: 90px;
+	box-shadow: 1px 1px 5px gray;
+    animation: girar 5s ease-in infinite;
+	animation-timing-function: steps(20, end);
+}
+
+.act3{
+	margin-top: 1rem;
+	margin-left: 4rem;
+	height: 90px;
+    animation: girar 5s ease-in infinite;
+	animation-timing-function: steps(20, end);
+}
+
+td{
+	font-family: "Tw Cen MT Condensed";
+	font-size: 15px;
+	color: #FFFFFF;
+}
+.td2{
+	font-family: "Tw Cen MT Condensed";
+	font-size: 15px;
+	color: #1B1B1B;	
+}
+.AC{
+	margin-top: 5.5%;
+	margin-left: 2rem;
+	background: #666 url(https://media.giphy.com/media/10Ce3YapEBf23C/source.gif) no-repeat; 
+	width: 500px;
+   	height: 150px;      
+   position: relative;
+   border-radius: 40%;
+   border: 5px solid #25CED1;
+   animation: label-animationd;
+   animation-duration: 25s;
+    animation-timing-function: ease-in-out;
+	animation-direction: reverse;
+	animation-iteration-count: infinite;
+}
+
+.AC2{
+   margin-top: 2%;
+	margin-left: 2rem;
+	background: #666 url(https://media.giphy.com/media/11U9oYsvsmPWFy/source.gif) no-repeat; 
+	width: 500px;
+   	height: 150px;      
+   position: relative;
+   border-radius: 40%;
+   border: 5px solid #25CED1;
+   animation: label-animationd;
+   animation-duration: 25s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.AC3{
+	margin-top: 2%;
+	margin-left: 2rem;
+	background: #666 url(https://media.giphy.com/media/t4DcI9P3dNVoA/source.gif) no-repeat; 
+	width: 500px;
+   	height: 150px;      
+   position: relative;
+   border-radius: 40%;
+   border: 5px solid #25CED1;
+   animation: label-animationd;
+   animation-duration: 25s;
+    animation-timing-function: ease-in-out;
+	animation-direction: reverse;
+	animation-iteration-count: infinite;
+}
+.act2{
+	margin-top: 1rem;
+	margin-left: 3rem;
+	height: 80px;
+	box-shadow: 1px 1px 5px gray;
+}
+
+.imgG{
+	height: 30px;
+	margin-top: 5rem; 
+}
+.ExL{
+	width: 100%;
+	height: 47rem;
+	display: flex;
+	animation: animacion_test3 20s alternate infinite;
+	border-color: #FFFFFF;
+	border-style: double solid ;
+	flex-direction: column;
+	margin-top: 0.5rem;
+}
+.text{
+	background-image: url(https://media.giphy.com/media/j6GoTQRBMUy29NR3Uv/source.gif);
+	background-size: cover;
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-decoration-style: "Tw Cen MT Condensed";
+	font-size: 17px;
+	line-height: 1;
+	margin: 10px;
+	margin-top: 2rem;
+}
+
+.Ed{
+	margin-top: 2%;
+	margin-left: 2rem;
+	background: #666 url(https://media.giphy.com/media/3owypj8FFM6NjOd9WU/source.gif) no-repeat; 
+	width: 500px;
+   	height: 25rem;      
+   position: relative;
+   animation: label-animationd;
+   animation-duration: 25s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	text-align: center;
+	font-size: 2px;
+}
+.text2{
+	background-image: url(https://media.giphy.com/media/QZk0HSzvxa4KI/source.gif);
+	background-size: cover;
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-decoration-style: "Tw Cen MT Condensed";
+	font-size: 17px;
+	line-height: .75;
+	margin: 10px;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.I{
+	margin-top: 2%;
+	margin-left: 2rem;
+	background: #666 url(https://media.giphy.com/media/3o7aDc9Gxs2TOulDUs/source.gif) no-repeat; 
+	width: 500px;
+   	height: 10rem;      
+   position: relative;
+   animation: label-animationd;
+   animation-duration: 25s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+	text-align: center;
+}
+@keyframes label-animation{
+	from{
+		transform: rotate(0deg);
+		margin-left: 0;
+	}
+	to{
+		transform: rotate(0deg);
+		margin-left: 90vw;
+	}
+}
+@keyframes label-animationd{
+	from{
+		transform: rotate(0deg);
+		margin-left: 0;
+	}
+	to{
+		transform: rotate(0deg);
+		margin-left: 60vw;
+	}
+}
+@keyframes move {
+  0% {/*Verde*/
+    text-shadow:
+      4px -4px 0 hsl(130, 54%, 32%), 
+      3px -3px 0 hsl(130, 54%, 32%), 
+      2px -2px 0 hsl(130, 54%, 32%), 
+      1px -1px 0 hsl(130, 54%, 32%),
+      -4px 4px 0 hsl(130, 54%, 32%), 
+      -3px 3px 0 hsl(130, 54%, 32%), 
+      -2px 2px 0 hsl(130, 54%, 32%), 
+      -1px 1px 0 hsl(130, 54%, 32%)
+    ;
+  }
+  25% {    
+    text-shadow: /*Negro*/     
+      -4px -4px 0 hsla(180, 100%, 50%, 1), 
+      -3px -3px 0 hsla(180, 100%, 50%, 1), 
+      -2px -2px 0 hsla(180, 100%, 50%, 1), 
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      4px 4px 0 hsla(0, 100%, 50%, 1), 
+      3px 3px 0 hsla(0, 100%, 50%, 1), 
+      2px 2px 0 hsla(0, 100%, 50%, 1), 
+      1px 1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  50% {
+    text-shadow:
+	  -4px 4px 0 hsl(160, 76%, 50%), 
+      -3px 3px 0 hsl(160, 76%, 50%), 
+      -2px 2px 0 hsl(160, 76%, 50%), /*Verde claro*/
+      -1px 1px 0 hsl(160, 76%, 50%),
+      4px -4px 0 hsla(180, 100%, 50%, 1), 
+      3px -3px 0 hsla(180, 100%, 50%, 1), 
+      2px -2px 0 hsla(180, 100%, 50%, 1), 
+      1px -1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 hsla(180, 100%, 50%, 1), 
+      3px 3px 0 hsla(180, 100%, 50%, 1), 
+      2px 2px 0 hsla(180, 100%, 50%, 1), 
+      1px 1px 0 hsla(180, 100%, 50%, 1),
+      -4px -4px 0 hsl(160, 76%, 50%), 
+      -3px -3px 0 hsl(160, 76%, 50%), 
+      -2px -2px 0 hsl(160, 76%, 50%), 
+      -1px -1px 0 hsl(160, 76%, 50%)      
+    ;
+  }
+  100% {
+    text-shadow:
+	  -4px 4px 0 hsl(160, 76%, 50%), 
+      -3px 3px 0 hsl(160, 76%, 50%), 
+      -2px 2px 0 hsl(160, 76%, 50%), /*Verde claro*/
+      -1px 1px 0 hsl(160, 76%, 50%),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@keyframes girar{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
